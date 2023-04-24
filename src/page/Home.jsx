@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import ZaliheTbl from '../component/ZaliheTbl';
 
 function Home() {
 
@@ -77,6 +78,9 @@ function Home() {
             </div>
             <button onClick={unesiZalihu} className="btn btn-primary btn-lg offset-5 mt-3 mb-4" id="btnadd">Unesi</button>
             <hr />
+
+            <ZaliheTbl zalihe={zalihe} />
+
         </div>
     )
 }
