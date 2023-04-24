@@ -11,3 +11,19 @@
   width: 65%;
   margin-left: 18%;
 }
+
+.nav {
+  background-color: black;
+  height: 2.9rem;
+}
+
+.nav a {
+  font-size: 26px;
+  margin-left: 2%;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  color: white;
+}

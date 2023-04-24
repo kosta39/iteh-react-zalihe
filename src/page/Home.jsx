@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ZaliheTbl from '../component/ZaliheTbl';
+import Nav from '../component/Nav';
 
 function Home() {
 
@@ -52,6 +53,9 @@ function Home() {
 
     return (
         <div>
+
+            <Nav />
+
             <h1 className="mt-3 text-center">React - Domaći zadatak</h1>
 
             <div className="row mt-5">
