@@ -27,3 +27,8 @@
 .nav a:hover {
   color: white;
 }
+
+#select {
+  width: 30vh;
+  margin-left: 50rem;
+}
